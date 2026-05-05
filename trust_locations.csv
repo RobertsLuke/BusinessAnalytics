@@ -1,0 +1,248 @@
+provider_code,provider_name,region_code,region,ics_code,ics_name,postcode,latitude,longitude
+G6V2S,North London NHS Foundation Trust,Y56,London,QMJ,North Central London,,,
+QE1,NHS Lancashire and South Cumbria ICB,Y62,North West,QE1,Lancashire and South Cumbria,,,
+QF7,NHS South Yorkshire ICB,Y63,North East and Yorkshire,QF7,South Yorkshire,,,
+QGH,NHS Herefordshire and Worcestershire ICB,Y60,Midlands,QGH,Herefordshire and Worcestershire,,,
+QH8,NHS Mid and South Essex ICB,Y61,East of England,QH8,Mid and South Essex,,,
+QHG,"NHS Bedfordshire, Luton and Milton Keynes ICB",Y61,East of England,QHG,"Bedfordshire, Luton and Milton Keynes",,,
+QHL,NHS Birmingham and Solihull ICB,Y60,Midlands,QHL,Birmingham and Solihull,,,
+QHM,NHS North East and North Cumbria ICB,Y63,North East and Yorkshire,QHM,North East and North Cumbria,,,
+QJ2,NHS Derby and Derbyshire ICB,Y60,Midlands,QJ2,Derby and Derbyshire,,,
+QJG,NHS Suffolk and North East Essex ICB,Y61,East of England,QJG,Suffolk and North East Essex,,,
+QJK,NHS Devon ICB,Y58,South West,QJK,Devon,,,
+QJM,NHS Lincolnshire ICB,Y60,Midlands,QJM,Lincolnshire,,,
+QK1,"NHS Leicester, Leicestershire and Rutland ICB",Y60,Midlands,QK1,"Leicester, Leicestershire and Rutland",,,
+QKK,NHS South East London ICB,Y56,London,QKK,South East London,,,
+QKS,NHS Kent and Medway ICB,Y59,South East,QKS,Kent and Medway,,,
+QM7,NHS Hertfordshire and West Essex ICB,Y61,East of England,QM7,Hertfordshire and West Essex,,,
+QMF,NHS North East London ICB,Y56,London,QMF,North East London,,,
+QMJ,NHS North Central London ICB,Y56,London,QMJ,North Central London,,,
+QMM,NHS Norfolk and Waveney ICB,Y61,East of England,QMM,Norfolk and Waveney,,,
+QNC,NHS Staffordshire and Stoke-on-Trent ICB,Y60,Midlands,QNC,Staffordshire and Stoke-on-Trent,,,
+QNQ,NHS Frimley ICB,Y59,South East,QNQ,Frimley,,,
+QNX,NHS Sussex ICB,Y59,South East,QNX,Sussex,,,
+QOC,"NHS Shropshire, Telford and Wrekin ICB",Y60,Midlands,QOC,"Shropshire, Telford and Wrekin",,,
+QOP,NHS Greater Manchester ICB,Y62,North West,QOP,Greater Manchester,,,
+QOQ,NHS Humber and North Yorkshire ICB,Y63,North East and Yorkshire,QOQ,Humber and North Yorkshire,,,
+QOX,"NHS Bath and North East Somerset, Swindon and Wiltshire ICB",Y58,South West,QOX,"Bath and North East Somerset, Swindon and Wiltshire",,,
+QPM,NHS Northamptonshire ICB,Y60,Midlands,QPM,Northamptonshire,,,
+QR1,NHS Gloucestershire ICB,Y58,South West,QR1,Gloucestershire,,,
+QRL,NHS Hampshire and Isle of Wight ICB,Y59,South East,QRL,Hampshire and Isle of Wight,,,
+QRV,NHS North West London ICB,Y56,London,QRV,North West London,,,
+QSL,NHS Somerset ICB,Y58,South West,QSL,Somerset,,,
+QT1,NHS Nottingham and Nottinghamshire ICB,Y60,Midlands,QT1,Nottingham and Nottinghamshire,,,
+QT6,NHS Cornwall and the Isles of Scilly ICB,Y58,South West,QT6,Cornwall and the Isles of Scilly,,,
+QU9,"NHS Buckinghamshire, Oxfordshire and Berkshire West ICB",Y59,South East,QU9,"Buckinghamshire, Oxfordshire and Berkshire West",,,
+QUA,NHS Black Country ICB,Y60,Midlands,QUA,Black Country,,,
+QUE,NHS Cambridgeshire and Peterborough ICB,Y61,East of England,QUE,Cambridgeshire and Peterborough,,,
+QUY,"NHS Bristol, North Somerset and South Gloucestershire ICB",Y58,South West,QUY,"Bristol, North Somerset and South Gloucestershire",,,
+QVV,NHS Dorset ICB,Y58,South West,QVV,Dorset,,,
+QWE,NHS South West London ICB,Y56,London,QWE,South West London,,,
+QWO,NHS West Yorkshire ICB,Y63,North East and Yorkshire,QWO,West Yorkshire,,,
+QWU,NHS Coventry and Warwickshire ICB,Y60,Midlands,QWU,Coventry and Warwickshire,,,
+QXU,NHS Surrey Heartlands ICB,Y59,South East,QXU,Surrey Heartlands,,,
+QYG,NHS Cheshire and Merseyside ICB,Y62,North West,QYG,Cheshire and Merseyside,,,
+R0A,Manchester University NHS Foundation Trust,Y62,North West,QOP,Greater Manchester,M13 9WL,53.462452,-2.227709
+R0B,South Tyneside and Sunderland NHS Foundation Trust,Y63,North East and Yorkshire,QHM,North East and North Cumbria,SR4 7TP,54.902214,-1.410327
+R0D,University Hospitals Dorset NHS Foundation Trust,Y58,South West,QVV,Dorset,BH15 2JB,50.721977,-1.97311
+R1A,Herefordshire and Worcestershire Health and Care NHS Trust,Y60,Midlands,QGH,Herefordshire and Worcestershire,WR5 1JR,52.192352,-2.178013
+R1D,Shropshire Community Health NHS Trust,Y60,Midlands,QOC,"Shropshire, Telford and Wrekin",SY2 6FG,52.690597,-2.72109
+R1F,Isle of Wight NHS Trust,Y59,South East,QRL,Hampshire and Isle of Wight,PO30 5TG,50.710832,-1.301363
+R1H,Barts Health NHS Trust,Y56,London,QMF,North East London,E1 2ES,51.517168,-0.056023
+R1K,London North West University Healthcare NHS Trust,Y56,London,QRV,North West London,HA1 3UJ,51.575409,-0.322015
+R1L,Essex Partnership University NHS Foundation Trust,Y61,East of England,QH8,Mid and South Essex,SS11 7XX,51.633013,0.543374
+RA2,Royal Surrey NHS Foundation Trust,Y59,South East,QXU,Surrey Heartlands,GU2 7XX,51.241012,-0.607443
+RA7,University Hospitals Bristol and Weston NHS Foundation Trust,Y58,South West,QUY,"Bristol, North Somerset and South Gloucestershire",BS1 3NU,51.459476,-2.593021
+RA9,Torbay and South Devon NHS Foundation Trust,Y58,South West,QJK,Devon,TQ2 7AA,50.482303,-3.553819
+RAE,Bradford Teaching Hospitals NHS Foundation Trust,Y63,North East and Yorkshire,QWO,West Yorkshire,BD9 6RJ,53.805995,-1.7947
+RAJ,Mid and South Essex NHS Foundation Trust,Y61,East of England,QH8,Mid and South Essex,SS0 0RY,51.553842,0.688646
+RAL,Royal Free London NHS Foundation Trust,Y56,London,QMJ,North Central London,NW3 2QG,51.553227,-0.165298
+RAN,Royal National Orthopaedic Hospital NHS Trust,Y56,London,QRV,North West London,HA7 4LP,51.632569,-0.310412
+RAS,Hillingdon Hospitals NHS Foundation Trust,Y56,London,QRV,North West London,UB8 3NN,51.526078,-0.461155
+RAT,North East London NHS Foundation Trust,Y56,London,QMF,North East London,RM13 8GQ,51.518578,0.171162
+RAX,Kingston and Richmond NHS Foundation Trust,Y56,London,QWE,South West London,KT2 7QB,51.414826,-0.282602
+RBD,Dorset County Hospital NHS Foundation Trust,Y58,South West,QVV,Dorset,DT1 2JY,50.712931,-2.446934
+RBK,Walsall Healthcare NHS Trust,Y60,Midlands,QUA,Black Country,WS2 9PS,52.582346,-1.998918
+RBL,Wirral University Teaching Hospital NHS Foundation Trust,Y62,North West,QYG,Cheshire and Merseyside,CH49 5PE,53.36964,-3.096815
+RBN,Mersey and West Lancashire Teaching Hospitals NHS Trust,Y62,North West,QYG,Cheshire and Merseyside,L35 5DR,53.420485,-2.784953
+RBQ,Liverpool Heart and Chest Hospital NHS Foundation Trust,Y62,North West,QYG,Cheshire and Merseyside,L14 3PE,53.411167,-2.897989
+RBS,Alder Hey Children's NHS Foundation Trust,Y62,North West,QYG,Cheshire and Merseyside,L12 2AP,53.421263,-2.897796
+RBT,Mid Cheshire Hospitals NHS Foundation Trust,Y62,North West,QYG,Cheshire and Merseyside,CW1 4QJ,53.117701,-2.475863
+RBV,Christie NHS Foundation Trust,Y62,North West,QOP,Greater Manchester,M20 4BX,53.429783,-2.230124
+RC9,Bedfordshire Hospitals NHS Foundation Trust,Y61,East of England,QHG,"Bedfordshire, Luton and Milton Keynes",LU4 0DZ,51.894292,-0.474153
+RCB,York and Scarborough Teaching Hospitals NHS Foundation Trust,Y63,North East and Yorkshire,QOQ,Humber and North Yorkshire,YO31 8HE,53.96897,-1.084294
+RCD,Harrogate and District NHS Foundation Trust,Y63,North East and Yorkshire,QOQ,Humber and North Yorkshire,HG2 7SX,53.993822,-1.517579
+RCF,Airedale NHS Foundation Trust,Y63,North East and Yorkshire,QWO,West Yorkshire,BD20 6TD,53.897957,-1.962729
+RCU,Sheffield Children's NHS Foundation Trust,Y63,North East and Yorkshire,QF7,South Yorkshire,S10 2TH,53.380617,-1.490628
+RCX,Queen Elizabeth Hospital King's Lynn NHS Foundation Trust,Y61,East of England,QMM,Norfolk and Waveney,PE30 4ET,52.75663,0.446694
+RD1,Royal United Hospitals Bath NHS Foundation Trust,Y58,South West,QOX,"Bath and North East Somerset, Swindon and Wiltshire",BA1 3NG,51.391662,-2.391217
+RD8,Milton Keynes University Hospital NHS Foundation Trust,Y61,East of England,QHG,"Bedfordshire, Luton and Milton Keynes",MK6 5LD,52.026384,-0.73576
+RDE,East Suffolk and North Essex NHS Foundation Trust,Y61,East of England,QJG,Suffolk and North East Essex,CO4 5JL,51.910175,0.899213
+RDR,Sussex Community NHS Foundation Trust,Y59,South East,QNX,Sussex,BN2 3EW,50.831176,-0.114497
+RDU,Frimley Health NHS Foundation Trust,Y59,South East,QNQ,Frimley,GU16 7UJ,51.319666,-0.742011
+RDY,Dorset Healthcare University NHS Foundation Trust,Y58,South West,QVV,Dorset,BH17 0RB,50.740063,-1.978032
+REF,Royal Cornwall Hospitals NHS Trust,Y58,South West,QT6,Cornwall and the Isles of Scilly,TR1 3LJ,50.266675,-5.091511
+REM,Liverpool University Hospitals NHS Foundation Trust,Y62,North West,QYG,Cheshire and Merseyside,L7 8XP,53.409523,-2.964809
+REN,Clatterbridge Cancer Centre NHS Foundation Trust,Y62,North West,QYG,Cheshire and Merseyside,CH63 4JY,53.332283,-3.025849
+REP,Liverpool Women's NHS Foundation Trust,Y62,North West,QYG,Cheshire and Merseyside,L8 7SS,53.398478,-2.960077
+RET,Walton Centre NHS Foundation Trust,Y62,North West,QYG,Cheshire and Merseyside,L9 7LJ,53.466411,-2.930999
+RF4,"Barking, Havering and Redbridge University Hospitals NHS Trust",Y56,London,QMF,North East London,RM7 0AG,51.568649,0.179058
+RFF,Barnsley Hospital NHS Foundation Trust,Y63,North East and Yorkshire,QF7,South Yorkshire,S75 2EP,53.55915,-1.499495
+RFR,Rotherham NHS Foundation Trust,Y63,North East and Yorkshire,QF7,South Yorkshire,S60 2UD,53.413991,-1.342881
+RFS,Chesterfield Royal Hospital NHS Foundation Trust,Y60,Midlands,QJ2,Derby and Derbyshire,S44 5BL,53.236233,-1.400049
+RGD,Leeds and York Partnership NHS Foundation Trust,Y63,North East and Yorkshire,QWO,West Yorkshire,,,
+RGM,Royal Papworth Hospital NHS Foundation Trust,Y61,East of England,QUE,Cambridgeshire and Peterborough,CB2 0AY,52.173522,0.136045
+RGN,North West Anglia NHS Foundation Trust,Y61,East of England,QUE,Cambridgeshire and Peterborough,PE3 9GZ,52.58394,-0.279371
+RGP,James Paget University Hospitals NHS Foundation Trust,Y61,East of England,QMM,Norfolk and Waveney,NR31 6LA,52.561697,1.718003
+RGR,West Suffolk NHS Foundation Trust,Y61,East of England,QJG,Suffolk and North East Essex,IP33 2QZ,52.231679,0.709205
+RGT,Cambridge University Hospitals NHS Foundation Trust,Y61,East of England,QUE,Cambridgeshire and Peterborough,CB2 0QQ,52.175003,0.14065
+RH5,Somerset NHS Foundation Trust,Y58,South West,QSL,Somerset,TA1 5DA,51.011569,-3.121702
+RH8,Royal Devon University Healthcare NHS Foundation Trust,Y58,South West,QJK,Devon,EX2 5DW,50.716692,-3.506694
+RHA,Nottinghamshire Healthcare NHS Foundation Trust,Y60,Midlands,QT1,Nottingham and Nottinghamshire,,,
+RHM,University Hospital Southampton NHS Foundation Trust,Y59,South East,QRL,Hampshire and Isle of Wight,SO16 6YD,50.933011,-1.435095
+RHQ,Sheffield Teaching Hospitals NHS Foundation Trust,Y63,North East and Yorkshire,QF7,South Yorkshire,S5 7AU,53.409821,-1.455966
+RHU,Portsmouth Hospitals University NHS Trust,Y59,South East,QRL,Hampshire and Isle of Wight,PO6 3LY,50.850287,-1.069917
+RHW,Royal Berkshire NHS Foundation Trust,Y59,South East,QU9,"Buckinghamshire, Oxfordshire and Berkshire West",RG1 5AN,51.451023,-0.95931
+RJ1,Guy's and St Thomas' NHS Foundation Trust,Y56,London,QKK,South East London,SE1 7EH,51.49796,-0.11888
+RJ2,Lewisham and Greenwich NHS Trust,Y56,London,QKK,South East London,SE13 6LH,51.453022,-0.017917
+RJ6,Croydon Health Services NHS Trust,Y56,London,QWE,South West London,CR7 7YE,51.389128,-0.108758
+RJ7,St George's University Hospitals NHS Foundation Trust,Y56,London,QWE,South West London,SW17 0QT,51.426682,-0.175694
+RJ8,Cornwall Partnership NHS Foundation Trust,Y58,South West,QT6,Cornwall and the Isles of Scilly,PL31 2QN,50.471755,-4.740858
+RJC,South Warwickshire University NHS Foundation Trust,Y60,Midlands,QWU,Coventry and Warwickshire,CV34 5BW,52.289965,-1.583203
+RJE,University Hospitals of North Midlands NHS Trust,Y60,Midlands,QNC,Staffordshire and Stoke-on-Trent,ST4 6QG,53.003262,-2.211798
+RJL,Northern Lincolnshire and Goole NHS Foundation Trust,Y63,North East and Yorkshire,QOQ,Humber and North Yorkshire,DN33 2BA,53.544883,-0.096293
+RJN,East Cheshire NHS Trust,Y62,North West,QYG,Cheshire and Merseyside,SK10 3BL,53.262339,-2.141072
+RJR,Countess of Chester Hospital NHS Foundation Trust,Y62,North West,QYG,Cheshire and Merseyside,CH2 1UL,53.208816,-2.897886
+RJZ,King's College Hospital NHS Foundation Trust,Y56,London,QKK,South East London,SE5 9RS,51.468078,-0.09389
+RK5,Sherwood Forest Hospitals NHS Foundation Trust,Y60,Midlands,QT1,Nottingham and Nottinghamshire,NG17 4JL,53.134573,-1.233579
+RK9,University Hospitals Plymouth NHS Trust,Y58,South West,QJK,Devon,PL6 8DH,50.416707,-4.113712
+RKB,University Hospitals Coventry and Warwickshire NHS Trust,Y60,Midlands,QWU,Coventry and Warwickshire,CV2 2DX,52.421229,-1.438395
+RKE,Whittington Health NHS Trust,Y56,London,QMJ,North Central London,N19 5NF,51.566482,-0.139066
+RKL,West London NHS Trust,Y56,London,QRV,North West London,UB2 4SD,51.506315,-0.358547
+RL1,Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust,Y60,Midlands,QOC,"Shropshire, Telford and Wrekin",SY10 7AG,52.884226,-3.032684
+RL4,Royal Wolverhampton NHS Trust,Y60,Midlands,QUA,Black Country,WV10 0QP,52.599738,-2.095549
+RLQ,Wye Valley NHS Trust,Y60,Midlands,QGH,Herefordshire and Worcestershire,HR1 2ER,52.058529,-2.707776
+RLT,George Eliot Hospital NHS Trust,Y60,Midlands,QWU,Coventry and Warwickshire,CV10 7DJ,52.512597,-1.478431
+RLY,North Staffordshire Combined Healthcare NHS Trust,Y60,Midlands,QNC,Staffordshire and Stoke-on-Trent,,,
+RM1,Norfolk and Norwich University Hospitals NHS Foundation Trust,Y61,East of England,QMM,Norfolk and Waveney,NR4 7UY,52.617567,1.221195
+RM3,Northern Care Alliance NHS Foundation Trust,Y62,North West,QOP,Greater Manchester,M6 8HD,53.487562,-2.323424
+RMC,Bolton NHS Foundation Trust,Y62,North West,QOP,Greater Manchester,BL4 0JR,53.553973,-2.429892
+RMP,Tameside and Glossop Integrated Care NHS Foundation Trust,Y62,North West,QOP,Greater Manchester,OL6 9RW,53.491546,-2.071432
+RMY,Norfolk and Suffolk NHS Foundation Trust,Y61,East of England,QMM,Norfolk and Waveney,,,
+RN3,Great Western Hospitals NHS Foundation Trust,Y58,South West,QOX,"Bath and North East Somerset, Swindon and Wiltshire",SN3 6BB,51.538529,-1.727188
+RN5,Hampshire Hospitals NHS Foundation Trust,Y59,South East,QRL,Hampshire and Isle of Wight,RG24 9NA,51.280633,-1.1099
+RN7,Dartford and Gravesham NHS Trust,Y59,South East,QKS,Kent and Medway,DA2 8DA,51.434952,0.258673
+RNA,Dudley Group NHS Foundation Trust,Y60,Midlands,QUA,Black Country,DY1 2HQ,52.501908,-2.117684
+RNK,Tavistock and Portman NHS Foundation Trust,Y56,London,QMJ,North Central London,,,
+RNN,North Cumbria Integrated Care NHS Foundation Trust,Y63,North East and Yorkshire,QHM,North East and North Cumbria,CA2 7HY,54.896504,-2.957796
+RNQ,Kettering General Hospital NHS Foundation Trust,Y60,Midlands,QPM,Northamptonshire,NN16 8UZ,52.402797,-0.741279
+RNS,Northampton General Hospital NHS Trust,Y60,Midlands,QPM,Northamptonshire,NN1 5BD,52.236068,-0.883829
+RNU,Oxford Health NHS Foundation Trust,Y59,South East,QU9,"Buckinghamshire, Oxfordshire and Berkshire West",,,
+RNZ,Salisbury NHS Foundation Trust,Y58,South West,QOX,"Bath and North East Somerset, Swindon and Wiltshire",SP2 8BJ,51.04394,-1.789814
+RP1,Northamptonshire Healthcare NHS Foundation Trust,Y60,Midlands,QPM,Northamptonshire,NN15 7PW,52.394115,-0.722185
+RP4,Great Ormond Street Hospital for Children NHS Foundation Trust,Y56,London,QMJ,North Central London,WC1N 3JH,51.522212,-0.119898
+RP5,Doncaster and Bassetlaw Teaching Hospitals NHS Foundation Trust,Y63,North East and Yorkshire,QF7,South Yorkshire,DN2 5LT,53.530805,-1.108942
+RP6,Moorfields Eye Hospital NHS Foundation Trust,Y56,London,QMJ,North Central London,EC1V 2PD,51.527248,-0.089863
+RP7,Lincolnshire Partnership NHS Foundation Trust,Y60,Midlands,QJM,Lincolnshire,LN1 1FS,53.244051,-0.556906
+RPA,Medway NHS Foundation Trust,Y59,South East,QKS,Kent and Medway,ME7 5NY,51.379861,0.54209
+RPC,Queen Victoria Hospital NHS Foundation Trust,Y59,South East,QNX,Sussex,RH19 3DZ,51.135069,-0.002873
+RPG,Oxleas NHS Foundation Trust,Y56,London,QKK,South East London,DA2 7WG,51.434795,0.174767
+RPY,Royal Marsden NHS Foundation Trust,Y56,London,QRV,North West London,SW3 6JJ,51.490562,-0.172541
+RQ3,Birmingham Women's and Children's NHS Foundation Trust,Y60,Midlands,QHL,Birmingham and Solihull,B4 6NH,52.484784,-1.893809
+RQM,Chelsea and Westminster Hospital NHS Foundation Trust,Y56,London,QRV,North West London,SW10 9NH,51.484309,-0.18162
+RQW,Princess Alexandra Hospital NHS Trust,Y61,East of England,QM7,Hertfordshire and West Essex,CM20 1QX,51.771322,0.087315
+RQX,Homerton Healthcare NHS Foundation Trust,Y56,London,QMF,North East London,E9 6SR,51.550635,-0.046072
+RQY,South West London and St George's Mental Health NHS Trust,Y56,London,QWE,South West London,SW17 7DJ,51.437358,-0.172348
+RR7,Gateshead Health NHS Foundation Trust,Y63,North East and Yorkshire,QHM,North East and North Cumbria,NE9 6SX,54.939388,-1.580794
+RR8,Leeds Teaching Hospitals NHS Trust,Y63,North East and Yorkshire,QWO,West Yorkshire,LS9 7TF,53.806885,-1.520363
+RRE,Midlands Partnership University NHS Foundation Trust,Y60,Midlands,QNC,Staffordshire and Stoke-on-Trent,ST16 3SR,52.81065,-2.109263
+RRF,"Wrightington, Wigan and Leigh Teaching Hospitals NHS Foundation Trust",Y62,North West,QOP,Greater Manchester,WN1 2NN,53.557755,-2.629091
+RRJ,Royal Orthopaedic Hospital NHS Foundation Trust,Y60,Midlands,QHL,Birmingham and Solihull,B31 2AP,52.420088,-1.96116
+RRK,University Hospitals Birmingham NHS Foundation Trust,Y60,Midlands,QHL,Birmingham and Solihull,B15 2GW,52.451833,-1.942563
+RRU,London Ambulance Service NHS Trust,Y56,London,QKK,South East London,,,
+RRV,University College London Hospitals NHS Foundation Trust,Y56,London,QMJ,North Central London,NW1 2PG,51.525737,-0.137384
+RT1,Cambridgeshire and Peterborough NHS Foundation Trust,Y61,East of England,QUE,Cambridgeshire and Peterborough,CB21 5EF,52.184505,0.188329
+RT2,Pennine Care NHS Foundation Trust,Y62,North West,QOP,Greater Manchester,OL6 7SR,53.485827,-2.099981
+RT5,Leicestershire Partnership NHS Trust,Y60,Midlands,QK1,"Leicester, Leicestershire and Rutland",LE3 8RA,52.65573,-1.187999
+RTD,Newcastle Upon Tyne Hospitals NHS Foundation Trust,Y63,North East and Yorkshire,QHM,North East and North Cumbria,NE7 7DN,55.002783,-1.593393
+RTE,Gloucestershire Hospitals NHS Foundation Trust,Y58,South West,QR1,Gloucestershire,GL53 7AN,51.892128,-2.071875
+RTF,Northumbria Healthcare NHS Foundation Trust,Y63,North East and Yorkshire,QHM,North East and North Cumbria,NE29 8NH,55.025248,-1.467353
+RTG,University Hospitals of Derby and Burton NHS Foundation Trust,Y60,Midlands,QJ2,Derby and Derbyshire,DE22 3NE,52.910425,-1.513523
+RTH,Oxford University Hospitals NHS Foundation Trust,Y59,South East,QU9,"Buckinghamshire, Oxfordshire and Berkshire West",OX3 9DU,51.763867,-1.219773
+RTK,Ashford and St. Peter's Hospitals NHS Foundation Trust,Y59,South East,QXU,Surrey Heartlands,KT16 0PZ,51.377831,-0.527041
+RTP,Surrey and Sussex Healthcare NHS Trust,Y59,South East,QXU,Surrey Heartlands,RH1 5RH,51.219192,-0.161983
+RTQ,Gloucestershire Health and Care NHS Foundation Trust,Y58,South West,QR1,Gloucestershire,,,
+RTR,South Tees Hospitals NHS Foundation Trust,Y63,North East and Yorkshire,QHM,North East and North Cumbria,TS4 3BW,54.551768,-1.21482
+RTX,University Hospitals of Morecambe Bay NHS Foundation Trust,Y62,North West,QE1,Lancashire and South Cumbria,LA9 7RG,54.306116,-2.731605
+RV3,Central and North West London NHS Foundation Trust,Y56,London,QMJ,North Central London,NW1 3AX,51.524338,-0.142155
+RV5,South London and Maudsley NHS Foundation Trust,Y56,London,QKK,South East London,,,
+RV9,Humber Teaching NHS Foundation Trust,Y63,North East and Yorkshire,QOQ,Humber and North Yorkshire,HU10 6ED,53.771873,-0.449207
+RVJ,North Bristol NHS Trust,Y58,South West,QUY,"Bristol, North Somerset and South Gloucestershire",BS10 5NB,51.494806,-2.591016
+RVN,Avon and Wiltshire Mental Health Partnership NHS Trust,Y58,South West,QOX,"Bath and North East Somerset, Swindon and Wiltshire",,,
+RVR,Epsom and St Helier University Hospitals NHS Trust,Y56,London,QWE,South West London,SM5 1AA,51.380188,-0.183708
+RVV,East Kent Hospitals University NHS Foundation Trust,Y59,South East,QKS,Kent and Medway,CT1 3NG,51.266593,1.087113
+RVW,North Tees and Hartlepool NHS Foundation Trust,Y63,North East and Yorkshire,QHM,North East and North Cumbria,TS24 9AH,54.702408,-1.227851
+RW1,Hampshire and Isle of Wight Healthcare NHS Foundation Trust,Y59,South East,QRL,Hampshire and Isle of Wight,SO40 2RZ,50.931292,-1.530043
+RW4,Mersey Care NHS Foundation Trust,Y62,North West,QYG,Cheshire and Merseyside,L34 1PJ,53.424116,-2.826374
+RW5,Lancashire and South Cumbria NHS Foundation Trust,Y62,North West,QE1,Lancashire and South Cumbria,PR5 6AW,53.719431,-2.63894
+RWA,Hull University Teaching Hospitals NHS Trust,Y63,North East and Yorkshire,QOQ,Humber and North Yorkshire,HU3 2JZ,53.744134,-0.358153
+RWD,United Lincolnshire Teaching Hospitals NHS Trust,Y60,Midlands,QJM,Lincolnshire,LN2 5QY,53.233597,-0.519635
+RWE,University Hospitals of Leicester NHS Trust,Y60,Midlands,QK1,"Leicester, Leicestershire and Rutland",LE1 5WW,52.6268,-1.135953
+RWF,Maidstone and Tunbridge Wells NHS Trust,Y59,South East,QKS,Kent and Medway,ME16 9QQ,51.273661,0.484004
+RWG,West Hertfordshire Teaching Hospitals NHS Trust,Y61,East of England,QM7,Hertfordshire and West Essex,WD18 0HB,51.648926,-0.404165
+RWH,East and North Hertfordshire Teaching NHS Trust,Y61,East of England,QM7,Hertfordshire and West Essex,SG1 4AB,51.924246,-0.211889
+RWJ,Stockport NHS Foundation Trust,Y62,North West,QOP,Greater Manchester,SK2 7JE,53.383794,-2.132019
+RWK,East London NHS Foundation Trust,Y56,London,QMF,North East London,E1 8DE,51.513374,-0.071866
+RWP,Worcestershire Acute Hospitals NHS Trust,Y60,Midlands,QGH,Herefordshire and Worcestershire,WR5 1DD,52.191205,-2.181154
+RWR,Hertfordshire Partnership University NHS Foundation Trust,Y61,East of England,QM7,Hertfordshire and West Essex,,,
+RWV,Devon Partnership NHS Trust,Y58,South West,QJK,Devon,,,
+RWW,Warrington and Halton Teaching Hospitals NHS Foundation Trust,Y62,North West,QYG,Cheshire and Merseyside,WA5 1QG,53.393989,-2.610717
+RWX,Berkshire Healthcare NHS Foundation Trust,Y59,South East,QNQ,Frimley,RG12 2UT,51.416178,-0.740213
+RWY,Calderdale and Huddersfield NHS Foundation Trust,Y63,North East and Yorkshire,QWO,West Yorkshire,HD3 3EA,53.655489,-1.816339
+RX1,Nottingham University Hospitals NHS Trust,Y60,Midlands,QT1,Nottingham and Nottinghamshire,NG7 2UH,52.94382,-1.185953
+RX2,Sussex Partnership NHS Foundation Trust,Y59,South East,QNX,Sussex,,,
+RX3,"Tees, Esk and Wear Valleys NHS Foundation Trust",Y63,North East and Yorkshire,QHM,North East and North Cumbria,,,
+RX4,"Cumbria, Northumberland, Tyne and Wear NHS Foundation Trust",Y63,North East and Yorkshire,QHM,North East and North Cumbria,NE3 3XT,55.006495,-1.633115
+RX6,North East Ambulance Service NHS Foundation Trust,Y63,North East and Yorkshire,QHM,North East and North Cumbria,,,
+RX7,North West Ambulance Service NHS Trust,Y62,North West,QOP,Greater Manchester,,,
+RX8,Yorkshire Ambulance Service NHS Trust,Y63,North East and Yorkshire,QWO,West Yorkshire,,,
+RX9,East Midlands Ambulance Service NHS Trust,Y60,Midlands,QT1,Nottingham and Nottinghamshire,,,
+RXA,Cheshire and Wirral Partnership NHS Foundation Trust,Y62,North West,QYG,Cheshire and Merseyside,,,
+RXC,East Sussex Healthcare NHS Trust,Y59,South East,QNX,Sussex,TN37 7PT,50.88769,0.561978
+RXE,Rotherham Doncaster and South Humber NHS Foundation Trust,Y63,North East and Yorkshire,QF7,South Yorkshire,,,
+RXF,Mid Yorkshire Teaching NHS Trust,Y63,North East and Yorkshire,QWO,West Yorkshire,WF1 4DG,53.692434,-1.488558
+RXG,South West Yorkshire Partnership NHS Foundation Trust,Y63,North East and Yorkshire,QWO,West Yorkshire,WF1 3SP,53.697356,-1.494057
+RXK,Sandwell and West Birmingham Hospitals NHS Trust,Y60,Midlands,QHL,Birmingham and Solihull,B66 2QT,52.491258,-1.949846
+RXL,Blackpool Teaching Hospitals NHS Foundation Trust,Y62,North West,QE1,Lancashire and South Cumbria,FY3 8NR,53.820675,-3.016275
+RXM,Derbyshire Healthcare NHS Foundation Trust,Y60,Midlands,QJ2,Derby and Derbyshire,DE22 3LZ,52.91807,-1.512352
+RXN,Lancashire Teaching Hospitals NHS Foundation Trust,Y62,North West,QE1,Lancashire and South Cumbria,PR2 9HT,53.791521,-2.706842
+RXP,County Durham and Darlington NHS Foundation Trust,Y63,North East and Yorkshire,QHM,North East and North Cumbria,DL3 6HX,54.530385,-1.563742
+RXQ,Buckinghamshire Healthcare NHS Trust,Y59,South East,QU9,"Buckinghamshire, Oxfordshire and Berkshire West",HP7 0JD,51.663005,-0.621408
+RXR,East Lancashire Hospitals NHS Trust,Y62,North West,QE1,Lancashire and South Cumbria,BB2 3HH,53.735575,-2.462715
+RXT,Birmingham and Solihull Mental Health NHS Foundation Trust,Y60,Midlands,QHL,Birmingham and Solihull,,,
+RXV,Greater Manchester Mental Health NHS Foundation Trust,Y62,North West,QOP,Greater Manchester,,,
+RXW,Shrewsbury and Telford Hospital NHS Trust,Y60,Midlands,QOC,"Shropshire, Telford and Wrekin",SY3 8XQ,52.709274,-2.793689
+RXX,Surrey and Borders Partnership NHS Foundation Trust,Y59,South East,QXU,Surrey Heartlands,,,
+RXY,Kent and Medway Mental Health NHS Trust,Y59,South East,QKS,Kent and Medway,,,
+RY2,Bridgewater Community Healthcare NHS Foundation Trust,Y62,North West,QYG,Cheshire and Merseyside,WA3 7PG,53.414117,-2.527537
+RY3,Norfolk Community Health and Care NHS Trust,Y61,East of England,QMM,Norfolk and Waveney,NR2 3TU,52.633947,1.262489
+RY4,Hertfordshire Community NHS Trust,Y61,East of England,QM7,Hertfordshire and West Essex,AL7 1BW,51.802232,-0.194122
+RY5,Lincolnshire Community Health Services NHS Trust,Y60,Midlands,QJM,Lincolnshire,,,
+RY6,Leeds Community Healthcare NHS Trust,Y63,North East and Yorkshire,QWO,West Yorkshire,LS11 0DL,53.762746,-1.575641
+RY7,Wirral Community Health and Care NHS Foundation Trust,Y62,North West,QYG,Cheshire and Merseyside,CH42 0LQ,53.380046,-3.026531
+RY8,Derbyshire Community Health Services NHS Foundation Trust,Y60,Midlands,QJ2,Derby and Derbyshire,S42 7JE,53.239334,-1.480649
+RYA,West Midlands Ambulance Service University NHS Foundation Trust,Y60,Midlands,QUA,Black Country,,,
+RYC,East of England Ambulance Service NHS Trust,Y61,East of England,QUE,Cambridgeshire and Peterborough,,,
+RYD,South East Coast Ambulance Service NHS Foundation Trust,Y59,South East,QNX,Sussex,,,
+RYE,South Central Ambulance Service NHS Foundation Trust,Y59,South East,QU9,"Buckinghamshire, Oxfordshire and Berkshire West",,,
+RYF,South Western Ambulance Service NHS Foundation Trust,Y58,South West,QJK,Devon,,,
+RYG,Coventry and Warwickshire Partnership NHS Trust,Y60,Midlands,QWU,Coventry and Warwickshire,CV6 6NY,52.456608,-1.486907
+RYJ,Imperial College Healthcare NHS Trust,Y56,London,QRV,North West London,W2 1BL,51.517542,-0.174387
+RYR,University Hospitals Sussex NHS Foundation Trust,Y59,South East,QNX,Sussex,BN11 2DH,50.816683,-0.363404
+RYV,Cambridgeshire Community Services NHS Trust,Y61,East of England,QUE,Cambridgeshire and Peterborough,PE27 4LG,52.322863,-0.067127
+RYW,Birmingham Community Healthcare NHS Foundation Trust,Y60,Midlands,QHL,Birmingham and Solihull,B7 4BN,52.487339,-1.885821
+RYX,Central London Community Healthcare NHS Trust,Y56,London,QRV,North West London,NW1 5JD,51.52284,-0.151514
+RYY,Kent Community Health NHS Foundation Trust,Y59,South East,QKS,Kent and Medway,TN25 4AZ,51.171892,0.870742
+TAD,Bradford District Care NHS Foundation Trust,Y63,North East and Yorkshire,QWO,West Yorkshire,,,
+TAH,Sheffield Health Partnership University NHS Foundation Trust,Y63,North East and Yorkshire,QF7,South Yorkshire,,,
+TAJ,Black Country Healthcare NHS Foundation Trust,Y60,Midlands,QUA,Black Country,,,
