@@ -1,0 +1,37 @@
+THE STORY WE ARE TELLING - PRESENTATION SCRIPT
+================================================
+
+Open the presentation with the question
+   ->  "How do NHS elective care waiting times vary across England's regions?
+        Is this a funding and staffing issue, or is something else driving
+        these disparities?"
+
+Vis 1 -- Set the scene. Show the decade-long failure.
+   ->  "The NHS 18-week target has not been met since 2017. The decline
+        started before COVID. The system has not recovered."
+
+Vis 2 -- Show that this isn't uniform across the country.
+   ->  "Pre-COVID every region performed similarly. After 2020 they fanned
+        out. Same NHS, same target, same shock, but very different outcomes."
+
+Vis 3 -- Bring it to life. Show the postcode lottery emerging.
+   ->  "Watch how the country starts uniformly green. After 2020 the
+        south-east turns red and stays red. The geography of failure has
+        emerged."
+
+Vis 4 -- Confront the obvious assumption.
+   ->  "The obvious explanation is underfunding and understaffing. But the
+        NHS workforce has grown by over a third in a decade. So if it isn't
+        that, what is it?"
+
+Vis 5 -- Reveal the actual driver.
+   ->  "It is demand. The waiting list more than doubled. Demand grew over
+        four times faster than the workforce. We are recovering, but only
+        slowly."
+
+Vis 6 -- Make it personal.
+   ->  "Find your trust. Type the name. See what is happening at your local
+        hospital. This is what you are walking into."
+
+Closing line
+   ->  "It is not staffing. It is demand. And recovery has only just started."
