@@ -1,0 +1,1303 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20261.26.0226.1626                               -->
+<workbook original-version='18.1' source-build='2026.1.0 (20261.26.0226.1626)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='nhs_rtt_trust_monthly' inline='true' name='federated.1hs43mt1sk9fqj16sukdr02uhs6a' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='nhs_rtt_trust_monthly' name='textscan.0vxded906nuv6111ko35h1klnge3'>
+            <connection class='textscan' directory='C:/Users/Luke/Desktop/PROJECTS/UNI/BUZI_GROUP/Research/processed/my_attempt/data/processed_files_for_tableau' filename='nhs_rtt_trust_monthly.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation type='collection'>
+          <relation connection='textscan.0vxded906nuv6111ko35h1klnge3' name='nhs_rtt_trust_monthly.csv' table='[nhs_rtt_trust_monthly#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+              <column datatype='date' name='date' ordinal='0' />
+              <column datatype='string' name='region_code' ordinal='1' />
+              <column datatype='string' name='provider_code' ordinal='2' />
+              <column datatype='string' name='provider_name' ordinal='3' />
+              <column datatype='string' name='treatment_function_code' ordinal='4' />
+              <column datatype='integer' name='total_incomplete_pathways' ordinal='5' />
+              <column datatype='integer' name='total_within_18_weeks' ordinal='6' />
+              <column datatype='real' name='pct_within_18_weeks' ordinal='7' />
+              <column datatype='real' name='median_wait_weeks' ordinal='8' />
+              <column datatype='string' name='total_52_plus_weeks' ordinal='9' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0vxded906nuv6111ko35h1klnge3' name='trust_locations.csv' table='[trust_locations#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+              <column datatype='string' name='provider_code' ordinal='0' />
+              <column datatype='string' name='provider_name' ordinal='1' />
+              <column datatype='string' name='region_code' ordinal='2' />
+              <column datatype='string' name='region' ordinal='3' />
+              <column datatype='string' name='ics_code' ordinal='4' />
+              <column datatype='string' name='ics_name' ordinal='5' />
+              <column datatype='string' name='postcode' ordinal='6' />
+              <column datatype='real' name='latitude' ordinal='7' />
+              <column datatype='real' name='longitude' ordinal='8' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[date]' value='[nhs_rtt_trust_monthly.csv].[date]' />
+          <map key='[ics_code]' value='[trust_locations.csv].[ics_code]' />
+          <map key='[ics_name]' value='[trust_locations.csv].[ics_name]' />
+          <map key='[latitude]' value='[trust_locations.csv].[latitude]' />
+          <map key='[longitude]' value='[trust_locations.csv].[longitude]' />
+          <map key='[median_wait_weeks]' value='[nhs_rtt_trust_monthly.csv].[median_wait_weeks]' />
+          <map key='[pct_within_18_weeks]' value='[nhs_rtt_trust_monthly.csv].[pct_within_18_weeks]' />
+          <map key='[postcode]' value='[trust_locations.csv].[postcode]' />
+          <map key='[provider_code (trust_locations.csv)]' value='[trust_locations.csv].[provider_code]' />
+          <map key='[provider_code]' value='[nhs_rtt_trust_monthly.csv].[provider_code]' />
+          <map key='[provider_name (trust_locations.csv)]' value='[trust_locations.csv].[provider_name]' />
+          <map key='[provider_name]' value='[nhs_rtt_trust_monthly.csv].[provider_name]' />
+          <map key='[region]' value='[trust_locations.csv].[region]' />
+          <map key='[region_code (trust_locations.csv)]' value='[trust_locations.csv].[region_code]' />
+          <map key='[region_code]' value='[nhs_rtt_trust_monthly.csv].[region_code]' />
+          <map key='[total_52_plus_weeks]' value='[nhs_rtt_trust_monthly.csv].[total_52_plus_weeks]' />
+          <map key='[total_incomplete_pathways]' value='[nhs_rtt_trust_monthly.csv].[total_incomplete_pathways]' />
+          <map key='[total_within_18_weeks]' value='[nhs_rtt_trust_monthly.csv].[total_within_18_weeks]' />
+          <map key='[treatment_function_code]' value='[nhs_rtt_trust_monthly.csv].[treatment_function_code]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[nhs_rtt_trust_monthly.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[trust_locations.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[nhs_rtt_trust_monthly.csv]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[nhs_rtt_trust_monthly.csv_DC377D35C11444C6BEBF52F2068EB54C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[region_code]</local-name>
+            <parent-name>[nhs_rtt_trust_monthly.csv]</parent-name>
+            <remote-alias>region_code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[nhs_rtt_trust_monthly.csv_DC377D35C11444C6BEBF52F2068EB54C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>provider_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[provider_code]</local-name>
+            <parent-name>[nhs_rtt_trust_monthly.csv]</parent-name>
+            <remote-alias>provider_code</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[nhs_rtt_trust_monthly.csv_DC377D35C11444C6BEBF52F2068EB54C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>provider_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[provider_name]</local-name>
+            <parent-name>[nhs_rtt_trust_monthly.csv]</parent-name>
+            <remote-alias>provider_name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[nhs_rtt_trust_monthly.csv_DC377D35C11444C6BEBF52F2068EB54C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>treatment_function_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[treatment_function_code]</local-name>
+            <parent-name>[nhs_rtt_trust_monthly.csv]</parent-name>
+            <remote-alias>treatment_function_code</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[nhs_rtt_trust_monthly.csv_DC377D35C11444C6BEBF52F2068EB54C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_incomplete_pathways</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_incomplete_pathways]</local-name>
+            <parent-name>[nhs_rtt_trust_monthly.csv]</parent-name>
+            <remote-alias>total_incomplete_pathways</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[nhs_rtt_trust_monthly.csv_DC377D35C11444C6BEBF52F2068EB54C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_within_18_weeks</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_within_18_weeks]</local-name>
+            <parent-name>[nhs_rtt_trust_monthly.csv]</parent-name>
+            <remote-alias>total_within_18_weeks</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[nhs_rtt_trust_monthly.csv_DC377D35C11444C6BEBF52F2068EB54C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pct_within_18_weeks</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[pct_within_18_weeks]</local-name>
+            <parent-name>[nhs_rtt_trust_monthly.csv]</parent-name>
+            <remote-alias>pct_within_18_weeks</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[nhs_rtt_trust_monthly.csv_DC377D35C11444C6BEBF52F2068EB54C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>median_wait_weeks</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[median_wait_weeks]</local-name>
+            <parent-name>[nhs_rtt_trust_monthly.csv]</parent-name>
+            <remote-alias>median_wait_weeks</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[nhs_rtt_trust_monthly.csv_DC377D35C11444C6BEBF52F2068EB54C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_52_plus_weeks</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[total_52_plus_weeks]</local-name>
+            <parent-name>[nhs_rtt_trust_monthly.csv]</parent-name>
+            <remote-alias>total_52_plus_weeks</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[nhs_rtt_trust_monthly.csv_DC377D35C11444C6BEBF52F2068EB54C]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>provider_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[provider_code (trust_locations.csv)]</local-name>
+            <parent-name>[trust_locations.csv]</parent-name>
+            <remote-alias>provider_code</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[trust_locations.csv_8A8B751290544938A9CD5DB08587EF2F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>provider_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[provider_name (trust_locations.csv)]</local-name>
+            <parent-name>[trust_locations.csv]</parent-name>
+            <remote-alias>provider_name</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[trust_locations.csv_8A8B751290544938A9CD5DB08587EF2F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[region_code (trust_locations.csv)]</local-name>
+            <parent-name>[trust_locations.csv]</parent-name>
+            <remote-alias>region_code</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[trust_locations.csv_8A8B751290544938A9CD5DB08587EF2F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[region]</local-name>
+            <parent-name>[trust_locations.csv]</parent-name>
+            <remote-alias>region</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[trust_locations.csv_8A8B751290544938A9CD5DB08587EF2F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ics_code</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ics_code]</local-name>
+            <parent-name>[trust_locations.csv]</parent-name>
+            <remote-alias>ics_code</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[trust_locations.csv_8A8B751290544938A9CD5DB08587EF2F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ics_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ics_name]</local-name>
+            <parent-name>[trust_locations.csv]</parent-name>
+            <remote-alias>ics_name</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[trust_locations.csv_8A8B751290544938A9CD5DB08587EF2F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>postcode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[postcode]</local-name>
+            <parent-name>[trust_locations.csv]</parent-name>
+            <remote-alias>postcode</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[trust_locations.csv_8A8B751290544938A9CD5DB08587EF2F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[trust_locations.csv]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[trust_locations.csv_8A8B751290544938A9CD5DB08587EF2F]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[trust_locations.csv]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[trust_locations.csv_8A8B751290544938A9CD5DB08587EF2F]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='nhs_rtt_trust_monthly.csv' datatype='table' name='[__tableau_internal_object_id__].[nhs_rtt_trust_monthly.csv_DC377D35C11444C6BEBF52F2068EB54C]' role='measure' type='quantitative' />
+      <column caption='trust_locations.csv' datatype='table' name='[__tableau_internal_object_id__].[trust_locations.csv_8A8B751290544938A9CD5DB08587EF2F]' role='measure' type='quantitative' />
+      <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column caption='Ics Code' datatype='string' name='[ics_code]' role='dimension' type='nominal' />
+      <column caption='Ics Name' datatype='string' name='[ics_name]' role='dimension' type='nominal' />
+      <column aggregation='Avg' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Median Wait Weeks' datatype='real' name='[median_wait_weeks]' role='measure' type='quantitative' />
+      <column caption='Pct Within 18 Weeks' datatype='real' name='[pct_within_18_weeks]' role='measure' type='quantitative' />
+      <column datatype='string' name='[postcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <column caption='Provider Code (Trust Locations.Csv)' datatype='string' name='[provider_code (trust_locations.csv)]' role='dimension' type='nominal' />
+      <column caption='Provider Code' datatype='string' name='[provider_code]' role='dimension' type='nominal' />
+      <column caption='Provider Name (Trust Locations.Csv)' datatype='string' name='[provider_name (trust_locations.csv)]' role='dimension' type='nominal' />
+      <column caption='Provider Name' datatype='string' name='[provider_name]' role='dimension' type='nominal' />
+      <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+      <column caption='Region Code (Trust Locations.Csv)' datatype='string' name='[region_code (trust_locations.csv)]' role='dimension' type='nominal' />
+      <column caption='Region Code' datatype='string' name='[region_code]' role='dimension' type='nominal' />
+      <column caption='Total 52 Plus Weeks' datatype='string' name='[total_52_plus_weeks]' role='dimension' type='nominal' />
+      <column caption='Total Incomplete Pathways' datatype='integer' name='[total_incomplete_pathways]' role='measure' type='quantitative' />
+      <column caption='Total Within 18 Weeks' datatype='integer' name='[total_within_18_weeks]' role='measure' type='quantitative' />
+      <column caption='Treatment Function Code' datatype='string' name='[treatment_function_code]' role='dimension' type='nominal' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='nhs_rtt_trust_monthly.csv' id='nhs_rtt_trust_monthly.csv_DC377D35C11444C6BEBF52F2068EB54C'>
+            <properties context=''>
+              <relation connection='textscan.0vxded906nuv6111ko35h1klnge3' name='nhs_rtt_trust_monthly.csv' table='[nhs_rtt_trust_monthly#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='date' name='date' ordinal='0' />
+                  <column datatype='string' name='region_code' ordinal='1' />
+                  <column datatype='string' name='provider_code' ordinal='2' />
+                  <column datatype='string' name='provider_name' ordinal='3' />
+                  <column datatype='string' name='treatment_function_code' ordinal='4' />
+                  <column datatype='integer' name='total_incomplete_pathways' ordinal='5' />
+                  <column datatype='integer' name='total_within_18_weeks' ordinal='6' />
+                  <column datatype='real' name='pct_within_18_weeks' ordinal='7' />
+                  <column datatype='real' name='median_wait_weeks' ordinal='8' />
+                  <column datatype='string' name='total_52_plus_weeks' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='trust_locations.csv' id='trust_locations.csv_8A8B751290544938A9CD5DB08587EF2F'>
+            <properties context=''>
+              <relation connection='textscan.0vxded906nuv6111ko35h1klnge3' name='trust_locations.csv' table='[trust_locations#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='provider_code' ordinal='0' />
+                  <column datatype='string' name='provider_name' ordinal='1' />
+                  <column datatype='string' name='region_code' ordinal='2' />
+                  <column datatype='string' name='region' ordinal='3' />
+                  <column datatype='string' name='ics_code' ordinal='4' />
+                  <column datatype='string' name='ics_name' ordinal='5' />
+                  <column datatype='string' name='postcode' ordinal='6' />
+                  <column datatype='real' name='latitude' ordinal='7' />
+                  <column datatype='real' name='longitude' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[provider_code]' />
+              <expression op='[provider_code (trust_locations.csv)]' />
+            </expression>
+            <first-end-point object-id='nhs_rtt_trust_monthly.csv_DC377D35C11444C6BEBF52F2068EB54C' />
+            <second-end-point object-id='trust_locations.csv_8A8B751290544938A9CD5DB08587EF2F' />
+          </relationship>
+        </relationships>
+      </object-graph>
+    </datasource>
+    <datasource caption='national_workforce_monthly (3)' inline='true' name='federated.15re0ws1cruafi17wimd802ec4oe' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='national_workforce_monthly' name='textscan.0d9uw8r04yd4np11bvn4g1o6jazj'>
+            <connection class='textscan' directory='C:/Users/Luke/Desktop/PROJECTS/UNI/BUZI_GROUP/Research/processed/my_attempt/data/processed_files_for_tableau' filename='national_workforce_monthly.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0d9uw8r04yd4np11bvn4g1o6jazj' name='national_workforce_monthly.csv' table='[national_workforce_monthly#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='date' name='date' ordinal='0' />
+            <column datatype='real' name='total_fte' ordinal='1' />
+            <column datatype='real' name='doctors_fte' ordinal='2' />
+            <column datatype='real' name='nurses_fte' ordinal='3' />
+            <column datatype='real' name='midwives_fte' ordinal='4' />
+            <column datatype='real' name='scientific_fte' ordinal='5' />
+            <column datatype='real' name='support_fte' ordinal='6' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[national_workforce_monthly.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date]</local-name>
+            <parent-name>[national_workforce_monthly.csv]</parent-name>
+            <remote-alias>date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[national_workforce_monthly.csv_5139C3A91A1249A693106AAC3B35DDB2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_fte</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total_fte]</local-name>
+            <parent-name>[national_workforce_monthly.csv]</parent-name>
+            <remote-alias>total_fte</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[national_workforce_monthly.csv_5139C3A91A1249A693106AAC3B35DDB2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>doctors_fte</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[doctors_fte]</local-name>
+            <parent-name>[national_workforce_monthly.csv]</parent-name>
+            <remote-alias>doctors_fte</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[national_workforce_monthly.csv_5139C3A91A1249A693106AAC3B35DDB2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nurses_fte</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nurses_fte]</local-name>
+            <parent-name>[national_workforce_monthly.csv]</parent-name>
+            <remote-alias>nurses_fte</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[national_workforce_monthly.csv_5139C3A91A1249A693106AAC3B35DDB2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>midwives_fte</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[midwives_fte]</local-name>
+            <parent-name>[national_workforce_monthly.csv]</parent-name>
+            <remote-alias>midwives_fte</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[national_workforce_monthly.csv_5139C3A91A1249A693106AAC3B35DDB2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scientific_fte</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[scientific_fte]</local-name>
+            <parent-name>[national_workforce_monthly.csv]</parent-name>
+            <remote-alias>scientific_fte</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[national_workforce_monthly.csv_5139C3A91A1249A693106AAC3B35DDB2]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>support_fte</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[support_fte]</local-name>
+            <parent-name>[national_workforce_monthly.csv]</parent-name>
+            <remote-alias>support_fte</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[national_workforce_monthly.csv_5139C3A91A1249A693106AAC3B35DDB2]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='national_workforce_monthly.csv' datatype='table' name='[__tableau_internal_object_id__].[national_workforce_monthly.csv_5139C3A91A1249A693106AAC3B35DDB2]' role='measure' type='quantitative' />
+      <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+      <column caption='Doctors Fte' datatype='real' name='[doctors_fte]' role='measure' type='quantitative' />
+      <column caption='Midwives Fte' datatype='real' name='[midwives_fte]' role='measure' type='quantitative' />
+      <column caption='Nurses Fte' datatype='real' name='[nurses_fte]' role='measure' type='quantitative' />
+      <column caption='Scientific Fte' datatype='real' name='[scientific_fte]' role='measure' type='quantitative' />
+      <column caption='Support Fte' datatype='real' name='[support_fte]' role='measure' type='quantitative' />
+      <column caption='Total Fte' datatype='real' name='[total_fte]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='national_workforce_monthly.csv' id='national_workforce_monthly.csv_5139C3A91A1249A693106AAC3B35DDB2'>
+            <properties context=''>
+              <relation connection='textscan.0d9uw8r04yd4np11bvn4g1o6jazj' name='national_workforce_monthly.csv' table='[national_workforce_monthly#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='date' name='date' ordinal='0' />
+                  <column datatype='real' name='total_fte' ordinal='1' />
+                  <column datatype='real' name='doctors_fte' ordinal='2' />
+                  <column datatype='real' name='nurses_fte' ordinal='3' />
+                  <column datatype='real' name='midwives_fte' ordinal='4' />
+                  <column datatype='real' name='scientific_fte' ordinal='5' />
+                  <column datatype='real' name='support_fte' ordinal='6' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Demand has more than doubled — and recovery is only just starting'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#bfbfbf' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif' fontsize='10'>Demand has more than doubled — and recovery is only just starting</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='nhs_rtt_trust_monthly' name='federated.1hs43mt1sk9fqj16sukdr02uhs6a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hs43mt1sk9fqj16sukdr02uhs6a'>
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column-instance column='[total_incomplete_pathways]' derivation='Sum' name='[sum:total_incomplete_pathways:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[date]' derivation='Month-Trunc' name='[tmn:date:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Incomplete Pathways' datatype='integer' name='[total_incomplete_pathways]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[sum:total_incomplete_pathways:qk]' scope='rows' value='Total people on the waiting list' />
+            <format attr='title' class='0' field='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[tmn:date:qk]' scope='cols' value='Year' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[sum:total_incomplete_pathways:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+          <style-rule element='refband'>
+            <format attr='fill-color' id='refline0' value='#f95e53' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <reference-line axis-column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[tmn:date:qk]' enable-instant-analytics='true' formula='constant' id='refline0' label-type='automatic' paired-id='refline1' scope='per-pane' symmetric='false' value='#2020-03-01 00:00:00#' value-column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[tmn:date:qk]' z-order='1' />
+            <reference-line axis-column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[tmn:date:qk]' enable-instant-analytics='true' formula='constant' id='refline1' label-type='automatic' paired-id='refline0' scope='per-pane' symmetric='false' value='#2021-06-01 00:00:00#' value-column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[tmn:date:qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e65100' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[sum:total_incomplete_pathways:qk]</rows>
+        <cols>[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[tmn:date:qk]</cols>
+      </table>
+      <simple-id uuid='{7A1F05EE-300E-4517-AEAB-D0560492D500}' />
+    </worksheet>
+    <worksheet name='How is your local NHS trust performing?'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#bfbfbf' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif' fontsize='10'>How is your local NHS trust performing?</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='nhs_rtt_trust_monthly' name='federated.1hs43mt1sk9fqj16sukdr02uhs6a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hs43mt1sk9fqj16sukdr02uhs6a'>
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column caption='Median Wait Weeks' datatype='real' name='[median_wait_weeks]' role='measure' type='quantitative' />
+            <column-instance column='[date]' derivation='None' name='[none:date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[provider_name (trust_locations.csv)]' derivation='None' name='[none:provider_name (trust_locations.csv):nk]' pivot='key' type='nominal' />
+            <column-instance column='[provider_name]' derivation='None' name='[none:provider_name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+            <column caption='Pct Within 18 Weeks' datatype='real' name='[pct_within_18_weeks]' role='measure' type='quantitative' />
+            <column caption='Provider Name (Trust Locations.Csv)' datatype='string' name='[provider_name (trust_locations.csv)]' role='dimension' type='nominal' />
+            <column caption='Provider Name' datatype='string' name='[provider_name]' role='dimension' type='nominal' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+            <column-instance column='[median_wait_weeks]' derivation='Sum' name='[sum:median_wait_weeks:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[pct_within_18_weeks]' derivation='Sum' name='[sum:pct_within_18_weeks:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[sum:median_wait_weeks:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[sum:pct_within_18_weeks:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[none:date:qk]' included-values='in-range'>
+            <min>#2026-01-01#</min>
+            <max>#2026-01-01#</max>
+          </filter>
+          <filter class='categorical' column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[none:provider_name (trust_locations.csv):nk]'>
+            <groupfilter function='level-members' level='[none:provider_name (trust_locations.csv):nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[none:date:qk]</column>
+            <column>[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[:Measure Names]</column>
+            <column>[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[none:provider_name (trust_locations.csv):nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='196' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[:Measure Names]' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1hs43mt1sk9fqj16sukdr02uhs6a].[none:provider_name:nk] / [federated.1hs43mt1sk9fqj16sukdr02uhs6a].[none:region:nk])</rows>
+        <cols>[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{59CD78EC-1919-4F23-9EAE-C45798F85E8E}' />
+    </worksheet>
+    <worksheet name='NHS staffing has grown by over a third — investment isn&apos;t the missing piece'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#bfbfbf' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif' fontsize='16'>NHS staffing has grown by over a third, investment isn&apos;t the missing piece</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='national_workforce_monthly (3)' name='federated.15re0ws1cruafi17wimd802ec4oe' />
+          </datasources>
+          <datasource-dependencies datasource='federated.15re0ws1cruafi17wimd802ec4oe'>
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column-instance column='[total_fte]' derivation='Sum' name='[sum:total_fte:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Fte' datatype='real' name='[total_fte]' role='measure' type='quantitative' />
+            <column-instance column='[date]' derivation='Year' name='[yr:date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15re0ws1cruafi17wimd802ec4oe].[yr:date:ok]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:date:ok]' member='2010' />
+              <groupfilter function='member' level='[yr:date:ok]' member='2011' />
+              <groupfilter function='member' level='[yr:date:ok]' member='2012' />
+              <groupfilter function='member' level='[yr:date:ok]' member='2013' />
+              <groupfilter function='member' level='[yr:date:ok]' member='2014' />
+              <groupfilter function='member' level='[yr:date:ok]' member='2015' />
+              <groupfilter function='member' level='[yr:date:ok]' member='2016' />
+              <groupfilter function='member' level='[yr:date:ok]' member='2017' />
+              <groupfilter function='member' level='[yr:date:ok]' member='2018' />
+              <groupfilter function='member' level='[yr:date:ok]' member='2019' />
+              <groupfilter function='member' level='[yr:date:ok]' member='2020' />
+              <groupfilter function='member' level='[yr:date:ok]' member='2021' />
+              <groupfilter function='member' level='[yr:date:ok]' member='2022' />
+              <groupfilter function='member' level='[yr:date:ok]' member='2023' />
+              <groupfilter function='member' level='[yr:date:ok]' member='2024' />
+              <groupfilter function='member' level='[yr:date:ok]' member='2025' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.15re0ws1cruafi17wimd802ec4oe].[yr:date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.15re0ws1cruafi17wimd802ec4oe].[sum:total_fte:qk]' scope='rows' value='Total Employees (Full-time equivalent)' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.15re0ws1cruafi17wimd802ec4oe].[sum:total_fte:qk]</rows>
+        <cols>[federated.15re0ws1cruafi17wimd802ec4oe].[yr:date:ok]</cols>
+      </table>
+      <simple-id uuid='{6F740EDD-99EB-45B7-817C-B6626C6D8D19}' />
+    </worksheet>
+    <worksheet name='Postcode lottery: Where you live decides how long you wait'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#bfbfbf' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif' fontsize='16'>Postcode lottery: Where you live decides how long you wait</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='nhs_rtt_trust_monthly' name='federated.1hs43mt1sk9fqj16sukdr02uhs6a' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1hs43mt1sk9fqj16sukdr02uhs6a'>
+            <column-instance column='[latitude]' derivation='Avg' name='[avg:latitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[longitude]' derivation='Avg' name='[avg:longitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[pct_within_18_weeks]' derivation='Avg' name='[avg:pct_within_18_weeks:qk]' pivot='key' type='quantitative' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column aggregation='Avg' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column-instance column='[date]' derivation='MY' name='[my:date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[provider_name (trust_locations.csv)]' derivation='None' name='[none:provider_name (trust_locations.csv):nk]' pivot='key' type='nominal' />
+            <column caption='Pct Within 18 Weeks' datatype='real' name='[pct_within_18_weeks]' role='measure' type='quantitative' />
+            <column caption='Provider Name (Trust Locations.Csv)' datatype='string' name='[provider_name (trust_locations.csv)]' role='dimension' type='nominal' />
+            <column-instance column='[total_incomplete_pathways]' derivation='Sum' name='[sum:total_incomplete_pathways:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Incomplete Pathways' datatype='integer' name='[total_incomplete_pathways]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[my:date:ok]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[my:date:ok]' member='201504' />
+              <groupfilter function='member' level='[my:date:ok]' member='201505' />
+              <groupfilter function='member' level='[my:date:ok]' member='201506' />
+              <groupfilter function='member' level='[my:date:ok]' member='201507' />
+              <groupfilter function='member' level='[my:date:ok]' member='201508' />
+              <groupfilter function='member' level='[my:date:ok]' member='201509' />
+              <groupfilter function='member' level='[my:date:ok]' member='201510' />
+              <groupfilter function='member' level='[my:date:ok]' member='201511' />
+              <groupfilter function='member' level='[my:date:ok]' member='201512' />
+              <groupfilter function='member' level='[my:date:ok]' member='201601' />
+              <groupfilter function='member' level='[my:date:ok]' member='201602' />
+              <groupfilter function='member' level='[my:date:ok]' member='201603' />
+              <groupfilter function='member' level='[my:date:ok]' member='201604' />
+              <groupfilter function='member' level='[my:date:ok]' member='201605' />
+              <groupfilter function='member' level='[my:date:ok]' member='201606' />
+              <groupfilter function='member' level='[my:date:ok]' member='201607' />
+              <groupfilter function='member' level='[my:date:ok]' member='201608' />
+              <groupfilter function='member' level='[my:date:ok]' member='201609' />
+              <groupfilter function='member' level='[my:date:ok]' member='201610' />
+              <groupfilter function='member' level='[my:date:ok]' member='201611' />
+              <groupfilter function='member' level='[my:date:ok]' member='201612' />
+              <groupfilter function='member' level='[my:date:ok]' member='201701' />
+              <groupfilter function='member' level='[my:date:ok]' member='201702' />
+              <groupfilter function='member' level='[my:date:ok]' member='201703' />
+              <groupfilter function='member' level='[my:date:ok]' member='201704' />
+              <groupfilter function='member' level='[my:date:ok]' member='201705' />
+              <groupfilter function='member' level='[my:date:ok]' member='201706' />
+              <groupfilter function='member' level='[my:date:ok]' member='201707' />
+              <groupfilter function='member' level='[my:date:ok]' member='201708' />
+              <groupfilter function='member' level='[my:date:ok]' member='201709' />
+              <groupfilter function='member' level='[my:date:ok]' member='201710' />
+              <groupfilter function='member' level='[my:date:ok]' member='201711' />
+              <groupfilter function='member' level='[my:date:ok]' member='201712' />
+              <groupfilter function='member' level='[my:date:ok]' member='201801' />
+              <groupfilter function='member' level='[my:date:ok]' member='201802' />
+              <groupfilter function='member' level='[my:date:ok]' member='201803' />
+              <groupfilter function='member' level='[my:date:ok]' member='201804' />
+              <groupfilter function='member' level='[my:date:ok]' member='201805' />
+              <groupfilter function='member' level='[my:date:ok]' member='201806' />
+              <groupfilter function='member' level='[my:date:ok]' member='201807' />
+              <groupfilter function='member' level='[my:date:ok]' member='201808' />
+              <groupfilter function='member' level='[my:date:ok]' member='201809' />
+              <groupfilter function='member' level='[my:date:ok]' member='201810' />
+              <groupfilter function='member' level='[my:date:ok]' member='201811' />
+              <groupfilter function='member' level='[my:date:ok]' member='201812' />
+              <groupfilter function='member' level='[my:date:ok]' member='201901' />
+              <groupfilter function='member' level='[my:date:ok]' member='201902' />
+              <groupfilter function='member' level='[my:date:ok]' member='201903' />
+              <groupfilter function='member' level='[my:date:ok]' member='201904' />
+              <groupfilter function='member' level='[my:date:ok]' member='201905' />
+              <groupfilter function='member' level='[my:date:ok]' member='201906' />
+              <groupfilter function='member' level='[my:date:ok]' member='201907' />
+              <groupfilter function='member' level='[my:date:ok]' member='201908' />
+              <groupfilter function='member' level='[my:date:ok]' member='201909' />
+              <groupfilter function='member' level='[my:date:ok]' member='201910' />
+              <groupfilter function='member' level='[my:date:ok]' member='201911' />
+              <groupfilter function='member' level='[my:date:ok]' member='201912' />
+              <groupfilter function='member' level='[my:date:ok]' member='202001' />
+              <groupfilter function='member' level='[my:date:ok]' member='202002' />
+              <groupfilter function='member' level='[my:date:ok]' member='202003' />
+              <groupfilter function='member' level='[my:date:ok]' member='202004' />
+              <groupfilter function='member' level='[my:date:ok]' member='202005' />
+              <groupfilter function='member' level='[my:date:ok]' member='202006' />
+              <groupfilter function='member' level='[my:date:ok]' member='202007' />
+              <groupfilter function='member' level='[my:date:ok]' member='202008' />
+              <groupfilter function='member' level='[my:date:ok]' member='202009' />
+              <groupfilter function='member' level='[my:date:ok]' member='202010' />
+              <groupfilter function='member' level='[my:date:ok]' member='202011' />
+              <groupfilter function='member' level='[my:date:ok]' member='202012' />
+              <groupfilter function='member' level='[my:date:ok]' member='202101' />
+              <groupfilter function='member' level='[my:date:ok]' member='202102' />
+              <groupfilter function='member' level='[my:date:ok]' member='202103' />
+              <groupfilter function='member' level='[my:date:ok]' member='202104' />
+              <groupfilter function='member' level='[my:date:ok]' member='202105' />
+              <groupfilter function='member' level='[my:date:ok]' member='202106' />
+              <groupfilter function='member' level='[my:date:ok]' member='202107' />
+              <groupfilter function='member' level='[my:date:ok]' member='202108' />
+              <groupfilter function='member' level='[my:date:ok]' member='202109' />
+              <groupfilter function='member' level='[my:date:ok]' member='202110' />
+              <groupfilter function='member' level='[my:date:ok]' member='202111' />
+              <groupfilter function='member' level='[my:date:ok]' member='202112' />
+              <groupfilter function='member' level='[my:date:ok]' member='202201' />
+              <groupfilter function='member' level='[my:date:ok]' member='202202' />
+              <groupfilter function='member' level='[my:date:ok]' member='202203' />
+              <groupfilter function='member' level='[my:date:ok]' member='202204' />
+              <groupfilter function='member' level='[my:date:ok]' member='202205' />
+              <groupfilter function='member' level='[my:date:ok]' member='202206' />
+              <groupfilter function='member' level='[my:date:ok]' member='202207' />
+              <groupfilter function='member' level='[my:date:ok]' member='202208' />
+              <groupfilter function='member' level='[my:date:ok]' member='202209' />
+              <groupfilter function='member' level='[my:date:ok]' member='202210' />
+              <groupfilter function='member' level='[my:date:ok]' member='202211' />
+              <groupfilter function='member' level='[my:date:ok]' member='202212' />
+              <groupfilter function='member' level='[my:date:ok]' member='202301' />
+              <groupfilter function='member' level='[my:date:ok]' member='202302' />
+              <groupfilter function='member' level='[my:date:ok]' member='202303' />
+              <groupfilter function='member' level='[my:date:ok]' member='202304' />
+              <groupfilter function='member' level='[my:date:ok]' member='202305' />
+              <groupfilter function='member' level='[my:date:ok]' member='202306' />
+              <groupfilter function='member' level='[my:date:ok]' member='202307' />
+              <groupfilter function='member' level='[my:date:ok]' member='202308' />
+              <groupfilter function='member' level='[my:date:ok]' member='202309' />
+              <groupfilter function='member' level='[my:date:ok]' member='202310' />
+              <groupfilter function='member' level='[my:date:ok]' member='202311' />
+              <groupfilter function='member' level='[my:date:ok]' member='202312' />
+              <groupfilter function='member' level='[my:date:ok]' member='202401' />
+              <groupfilter function='member' level='[my:date:ok]' member='202402' />
+              <groupfilter function='member' level='[my:date:ok]' member='202403' />
+              <groupfilter function='member' level='[my:date:ok]' member='202404' />
+              <groupfilter function='member' level='[my:date:ok]' member='202405' />
+              <groupfilter function='member' level='[my:date:ok]' member='202406' />
+              <groupfilter function='member' level='[my:date:ok]' member='202407' />
+              <groupfilter function='member' level='[my:date:ok]' member='202408' />
+              <groupfilter function='member' level='[my:date:ok]' member='202409' />
+              <groupfilter function='member' level='[my:date:ok]' member='202410' />
+              <groupfilter function='member' level='[my:date:ok]' member='202411' />
+              <groupfilter function='member' level='[my:date:ok]' member='202412' />
+              <groupfilter function='member' level='[my:date:ok]' member='202501' />
+              <groupfilter function='member' level='[my:date:ok]' member='202502' />
+              <groupfilter function='member' level='[my:date:ok]' member='202503' />
+              <groupfilter function='member' level='[my:date:ok]' member='202504' />
+              <groupfilter function='member' level='[my:date:ok]' member='202505' />
+              <groupfilter function='member' level='[my:date:ok]' member='202506' />
+              <groupfilter function='member' level='[my:date:ok]' member='202507' />
+              <groupfilter function='member' level='[my:date:ok]' member='202508' />
+              <groupfilter function='member' level='[my:date:ok]' member='202509' />
+              <groupfilter function='member' level='[my:date:ok]' member='202510' />
+              <groupfilter function='member' level='[my:date:ok]' member='202511' />
+              <groupfilter function='member' level='[my:date:ok]' member='202512' />
+              <groupfilter function='member' level='[my:date:ok]' member='202601' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[my:date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[avg:longitude:qk]' field-type='quantitative' max='492041.78360106493' min='-561130.69975083496' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[avg:latitude:qk]' field-type='quantitative' max='7077279.5879358789' min='6561872.2606984312' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' center='0.75' field='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[avg:pct_within_18_weeks:qk]' max='0.94999999999999996' min='0.5' palette='red_green_diverging_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[avg:pct_within_18_weeks:qk]' />
+              <size column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[sum:total_incomplete_pathways:qk]' />
+              <lod column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[none:provider_name (trust_locations.csv):nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[avg:latitude:qk]</rows>
+        <cols>[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[avg:longitude:qk]</cols>
+        <pages>
+          <column>[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[my:date:ok]</column>
+        </pages>
+      </table>
+      <simple-id uuid='{C85D7C5B-B8F1-4545-B0F3-F36DAA0FF7A9}' />
+    </worksheet>
+    <worksheet name='Pre-COVID, every region was uniformly green. Then COVID hit.'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#bfbfbf' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif' fontsize='16'>Pre-COVID, every region was uniformly green. Then COVID hit.</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='nhs_rtt_trust_monthly' name='federated.1hs43mt1sk9fqj16sukdr02uhs6a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hs43mt1sk9fqj16sukdr02uhs6a'>
+            <column-instance column='[pct_within_18_weeks]' derivation='Avg' name='[avg:pct_within_18_weeks:qk]' pivot='key' type='quantitative' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column-instance column='[region]' derivation='None' name='[none:region:nk]' pivot='key' type='nominal' />
+            <column caption='Pct Within 18 Weeks' datatype='real' name='[pct_within_18_weeks]' role='measure' type='quantitative' />
+            <column caption='Region' datatype='string' name='[region]' role='dimension' type='nominal' />
+            <column-instance column='[date]' derivation='Year' name='[yr:date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[none:region:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:region:nk]' />
+              <groupfilter function='member' level='[none:region:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[none:region:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[avg:pct_within_18_weeks:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[avg:pct_within_18_weeks:qk]' palette='red_green_diverging_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[avg:pct_within_18_weeks:qk]' />
+              <text column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[avg:pct_within_18_weeks:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[none:region:nk]</rows>
+        <cols>[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[yr:date:ok]</cols>
+      </table>
+      <simple-id uuid='{09B9CB74-A83B-419A-A092-AE43760E8057}' />
+    </worksheet>
+    <worksheet name='The 18-week target was last met in 2017'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#bfbfbf' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif' fontsize='14'>The 18-week target was last met in 2017</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='nhs_rtt_trust_monthly' name='federated.1hs43mt1sk9fqj16sukdr02uhs6a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1hs43mt1sk9fqj16sukdr02uhs6a'>
+            <column-instance column='[pct_within_18_weeks]' derivation='Avg' name='[avg:pct_within_18_weeks:qk]' pivot='key' type='quantitative' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column caption='Pct Within 18 Weeks' datatype='real' name='[pct_within_18_weeks]' role='measure' type='quantitative' />
+            <column-instance column='[date]' derivation='Month-Trunc' name='[tmn:date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[avg:pct_within_18_weeks:qk]' scope='rows' value='% of patients seen within 18 weeks' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[avg:pct_within_18_weeks:qk]' value='p0%' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='dashed' />
+            <format attr='stroke-color' id='refline0' value='#ff98004b' />
+          </style-rule>
+          <style-rule element='refband'>
+            <format attr='fill-color' id='refline1' value='#f95e53' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <reference-line axis-column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[avg:pct_within_18_weeks:qk]' enable-instant-analytics='true' formula='constant' id='refline0' label='92% target' label-type='custom' scope='per-pane' value='0.92000000000000004' value-column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[avg:pct_within_18_weeks:qk]' z-order='1' />
+            <reference-line axis-column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[tmn:date:qk]' enable-instant-analytics='true' formula='constant' id='refline1' label-type='automatic' paired-id='refline2' scope='per-pane' symmetric='false' value='#2020-03-01 00:00:00#' value-column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[tmn:date:qk]' z-order='2' />
+            <reference-line axis-column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[tmn:date:qk]' enable-instant-analytics='true' formula='constant' id='refline2' label-type='automatic' paired-id='refline1' scope='per-pane' symmetric='false' value='#2021-06-01 00:00:00#' value-column='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[tmn:date:qk]' z-order='2' />
+          </pane>
+        </panes>
+        <rows>[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[avg:pct_within_18_weeks:qk]</rows>
+        <cols>[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[tmn:date:qk]</cols>
+      </table>
+      <simple-id uuid='{A5A8C59D-D0E7-47E5-9E49-E1E266D503C6}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' name='The 18-week target was last met in 2017'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CD9C8880-8B35-444A-B644-F62519D9132D}' />
+    </window>
+    <window class='worksheet' name='Pre-COVID, every region was uniformly green. Then COVID hit.'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[avg:pct_within_18_weeks:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EF28401E-E793-496F-BF83-61B8449C0224}' />
+    </window>
+    <window class='worksheet' name='Postcode lottery: Where you live decides how long you wait'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[avg:pct_within_18_weeks:qk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[sum:total_incomplete_pathways:qk]' type='size' />
+            <card type='currpage' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>202601</bucket>
+          </multibucket>
+        </current-page>
+      </viewpoint>
+      <simple-id uuid='{9E6FAE28-A775-4142-B005-35C3FC77BC6D}' />
+    </window>
+    <window class='worksheet' name='NHS staffing has grown by over a third — investment isn&apos;t the missing piece'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5C5478B1-6985-4CF8-9E89-004F2C73AE5D}' />
+    </window>
+    <window class='worksheet' name='Demand has more than doubled — and recovery is only just starting'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E940B11F-0E51-4B42-B5F7-4AE0E4A5D728}' />
+    </window>
+    <window class='worksheet' maximized='true' name='How is your local NHS trust performing?'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='pattern' param='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[none:provider_name (trust_locations.csv):nk]' type='filter' />
+            <card param='[federated.1hs43mt1sk9fqj16sukdr02uhs6a].[:Measure Names]' show-morefewerbutton='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BBE7AED8-E2B9-489D-A986-72D91AB772B0}' />
+    </window>
+  </windows>
+</workbook>
